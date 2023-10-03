@@ -1,0 +1,23 @@
+﻿  bg.cpp
+  bullet.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  enemy.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  explosion.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  input.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  main.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  manager.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\manager.h(10): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  multibg.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  object.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\object.h(10): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  object2D.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  player.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  renderer.cpp
+c:\users\student\documents\visual studio 2015\projects\c+ game\main.h(11): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory

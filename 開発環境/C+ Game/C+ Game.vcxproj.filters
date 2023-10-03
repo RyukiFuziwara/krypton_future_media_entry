@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT">
+      <UniqueIdentifier>{02d4aeb2-8d2a-441d-9dd0-3830fcbbaa4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\2D">
+      <UniqueIdentifier>{bdb90829-f94f-4f4c-848d-1d9a4047566d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MAIN">
+      <UniqueIdentifier>{9a564177-0f3b-4fe5-8f25-7ca8b6b4cc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\3D">
+      <UniqueIdentifier>{0fcf28ce-f3e9-4245-85fd-3505a46ed4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\OBJECTX">
+      <UniqueIdentifier>{254fe64a-524e-4e79-ab36-aeed9d0d4054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\BILLBOARD">
+      <UniqueIdentifier>{fa226b3e-09bf-4905-a326-d00df361aff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\MODEL">
+      <UniqueIdentifier>{f92568da-5527-4207-8a2f-dbada0af7c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\MODEL\ENEMY">
+      <UniqueIdentifier>{01802653-084e-4ba1-aabc-88eaf46e034a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\2D\UI">
+      <UniqueIdentifier>{68818f93-fda4-4d4f-872f-38deb8379ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\MODEL\PLAYER">
+      <UniqueIdentifier>{ed343f0a-14b4-42ff-94d5-d827f98d4a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT">
+      <UniqueIdentifier>{aa2f2e78-1c92-46d8-bb5a-064ed53a0248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\2D">
+      <UniqueIdentifier>{2c17657a-e4ee-4c7e-a11e-ded2e0321491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\2D\UI">
+      <UniqueIdentifier>{f93e33c9-56a0-4ee3-b2b5-ec261f781e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\3D">
+      <UniqueIdentifier>{3a0d2884-f976-4201-8837-1320ff5aee60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\BILLBOARD">
+      <UniqueIdentifier>{b148551a-db94-459f-ac91-0f6d975ca929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\OBJECTX">
+      <UniqueIdentifier>{739ad855-bffc-4222-9f46-7b293f7f371a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\MODEL">
+      <UniqueIdentifier>{40a27401-5fae-4e89-b5f2-aece50b59288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\MODEL\ENEMY">
+      <UniqueIdentifier>{b1674469-822e-4ce8-8786-66484c26416f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\MODEL\PLAYER">
+      <UniqueIdentifier>{af18b350-bbf2-460c-a16b-fc886b0a8709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MAIN">
+      <UniqueIdentifier>{01dcb452-f4c3-4cba-a62f-2709846988b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MAIN\SCENE">
+      <UniqueIdentifier>{dd442d68-431c-46be-b144-a5afecf5d0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MAIN\SCENE">
+      <UniqueIdentifier>{569c282f-a0f3-4c49-99fc-b4c7c67f035c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\OBJECT\2D\UI\GAUGE">
+      <UniqueIdentifier>{156a5766-81ab-40ee-aa73-2f0d3da92ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\OBJECT\2D\UI\GAUGE">
+      <UniqueIdentifier>{8c48d94f-f042-493a-9258-b10d2b414244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="object2D.cpp">
+      <Filter>ソース ファイル\OBJECT\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="object3D.cpp">
+      <Filter>ソース ファイル\OBJECT\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル\OBJECT\BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="objX.cpp">
+      <Filter>ソース ファイル\OBJECT\OBJECTX</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\OBJECT\MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>ソース ファイル\OBJECT\MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder.cpp">
+      <Filter>ソース ファイル\OBJECT\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyattack.cpp">
+      <Filter>ソース ファイル\OBJECT\MODEL\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>ソース ファイル\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\MAIN\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\MAIN\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\MAIN\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\MAIN\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClCompile>
+    <ClCompile Include="actiongauge.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClCompile>
+    <ClCompile Include="opegauge.cpp">
+      <Filter>ソース ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\MAIN\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\OBJECT\BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\OBJECT\BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\OBJECT\MODEL\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\OBJECT\MODEL\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>ソース ファイル\OBJECT\OBJECTX</Filter>
+    </ClCompile>
+    <ClCompile Include="rock.cpp">
+      <Filter>ソース ファイル\OBJECT\OBJECTX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="object.h">
+      <Filter>ヘッダー ファイル\OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="object3D.h">
+      <Filter>ヘッダー ファイル\OBJECT\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル\OBJECT\BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="objX.h">
+      <Filter>ヘッダー ファイル\OBJECT\OBJECTX</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\OBJECT\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>ヘッダー ファイル\OBJECT\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>ヘッダー ファイル\OBJECT\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyattack.h">
+      <Filter>ヘッダー ファイル\OBJECT\MODEL\ENEMY</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>ヘッダー ファイル\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\MAIN\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\MAIN\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\MAIN\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\MAIN\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClInclude>
+    <ClInclude Include="actiongauge.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClInclude>
+    <ClInclude Include="opegauge.h">
+      <Filter>ヘッダー ファイル\OBJECT\2D\UI\GAUGE</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル\MAIN\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\OBJECT\BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル\OBJECT\BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\OBJECT\MODEL\ENEMY</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\OBJECT\MODEL\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>ヘッダー ファイル\OBJECT\OBJECTX</Filter>
+    </ClInclude>
+    <ClInclude Include="rock.h">
+      <Filter>ヘッダー ファイル\OBJECT\OBJECTX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

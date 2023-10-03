@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>dinput.h</FILENAME>
+      <LINE>4321</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>'joyConfigChanged' に対する整合性のない注釈: このインスタンスには 注釈なし が含まれます。c:\program files (x86)\windows kits\8.1\include\um\joystickapi.h(444) を参照してください。</DESCRIPTION>
+    <FUNCTION>joyConfigChanged</FUNCTION>
+    <DECORATED>joyConfigChanged@4</DECORATED>
+    <FUNCLINE>4321</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+      <FILENAME>game.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>関数はスタックの '32776' バイトを使用します: /analyze:stacksize '16384' を超えています。 データの一部をヒープに移動することを考慮してください。</DESCRIPTION>
+    <FUNCTION>CGame::Init</FUNCTION>
+    <DECORATED>?Init@CGame@@UAEJXZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+      <FILENAME>file.h</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>文字列 'aData' は 0 で終了しない可能性があります。</DESCRIPTION>
+    <FUNCTION>CFile::ObjectLoad</FUNCTION>
+    <DECORATED>??$ObjectLoad@VCXblock@@@CFile@@SAPAVCXblock@@PBD@Z</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>宣言</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>この式は、'aData' を 0 で終了しない可能性があります</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>宣言</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'aData' は 'memset' からの出力です (c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_string.h:60 で宣言)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>この分岐に入る ('pFile!=0' と仮定)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>このループに入る ('c!=((-1))' と仮定)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>このループに入る ('1' と仮定)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>この分岐に入る ('c==((-1))' と仮定)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>スイッチ ('column') は case 1:  に解決されると仮定します</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'aData' は 'atoi' への入力です (c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h:442 で宣言)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'aData' は、'atoi' の SAL 注釈によって 0 で終了する必要があります</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+      <FILENAME>file.h</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>初期化されていないメモリ 'obj' を使用しています。</DESCRIPTION>
+    <FUNCTION>CFile::ObjectLoad</FUNCTION>
+    <DECORATED>??$ObjectLoad@VCXblock@@@CFile@@SAPAVCXblock@@PBD@Z</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>宣言</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'obj' が初期化されていません</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分岐</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>この分岐をスキップする ('pFile!=0' が false と仮定)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\student\documents\visual studio 2015\projects\c+ game\</FILEPATH>
+        <FILENAME>file.h</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'obj' が使用されますが、初期化されていない可能性があります</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
